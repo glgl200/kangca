@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="* 개발자에게 하고싶은 말 *"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="제목:"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                android:scrollbars="vertical"
+                android:singleLine="false"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="내용:"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            android:layout_width="match_parent"
+            android:layout_height="354dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/comment"
+                    android:layout_width="match_parent"
+                    android:layout_height="241dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/common_google_signin_btn_text_dark_disabled"
+                    android:cursorVisible="true"
+                    android:ems="10"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:lineSpacingExtra="10dp"
+                    android:lines="8"
+                    android:maxLines="10"
+                    android:scrollHorizontally="false"
+                    android:scrollbars="vertical"
+                    android:singleLine="false"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/trans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@color/common_google_signin_btn_text_dark_focused"
+                android:text="전송"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@color/common_google_signin_btn_text_dark_focused"
+                android:text="취소"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

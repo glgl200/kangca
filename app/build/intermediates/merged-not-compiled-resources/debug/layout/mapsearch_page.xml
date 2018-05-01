@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".Main.MainAct">
+
+    <LinearLayout
+        android:id="@+id/Linear_textsearch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/text_edit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:hint="찾고싶은 카페이름을 입력하세요."
+            android:inputType="textPersonName"
+            android:imeOptions="actionSearch"
+            />
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/search" />
+
+    </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/myloc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:layout_margin="10dp"
+                    android:background="@color/common_google_signin_btn_text_dark_focused"
+                    android:text="내 위치"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+                <fragment
+                    android:id="@+id/map"
+                    class="com.google.android.gms.maps.MapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></fragment>
+
+
+        </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,219 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:2:1-73:13
+	package
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml
+		INJECTED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml
+		INJECTED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml
+		INJECTED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\ksdy2\.android\build-cache\b82965837d988559af0f5f713914f15e30a5d1cd\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:17:5-76
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:17:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:19:22-73
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:20:5-69
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:20:22-66
+uses-permission#android.permission.DIAL_PHONE
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:21:5-69
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:21:22-66
+application
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:24:5-71:20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ksdy2\.android\build-cache\2284f725b710f6fe4bbfbdfbe884a285c87bcc37\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ksdy2\.android\build-cache\aaa825a53dd3e941e7b73c8503bd9be08c2f8064\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ksdy2\.android\build-cache\a89f678584921f239d19ecf196f60242b1ae5076\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ksdy2\.android\build-cache\35951937ba13f1fbf641d82f3e9b010316b6371c\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\ksdy2\.android\build-cache\b82965837d988559af0f5f713914f15e30a5d1cd\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-location:10.0.1] C:\Users\ksdy2\.android\build-cache\8ec53e0191e236d6a9483b45514c0e00862c3506\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\ksdy2\.android\build-cache\f18784dce9885f92f1d020504357dc917b9686ba\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\ksdy2\.android\build-cache\797ecfc6ac6681a92690fa11dad2ab3b42f3c511\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\ksdy2\.android\build-cache\0af888c8be32f4d47d71c59c61be0c564ad291b9\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.tsengvn:Typekit:1.0.0] C:\Users\ksdy2\.android\build-cache\3611cb77e9baf421ebae8264c6161dcfe70cb301\output\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ksdy2\.android\build-cache\571d73f01cac928399f1ef3e62cde41794086d56\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ksdy2\.android\build-cache\361438d7f89565649caa49a5d04a6f5ea0f11f1a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ksdy2\.android\build-cache\8e477d7ef9e6899d2b20f18aa8419727db49d82b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ksdy2\.android\build-cache\16c625b5b766ba2d21f45da38d410f6bcd1d154b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ksdy2\.android\build-cache\374bb4ef6d0d8e694908f1356fd56ce17b3cee48\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ksdy2\.android\build-cache\10a6ed369361bff4cc9b7d24999c3946ed05a2a1\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:27:9-41
+	android:supportsRtl
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:29:9-35
+	android:roundIcon
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:28:9-48
+	android:allowBackup
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:25:9-35
+	android:icon
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:26:9-43
+	android:theme
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:30:9-40
+activity#kangwon.JK.Lee.cafe.Main.Logo_activity
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:31:9-37:20
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:31:19-72
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:35:27-74
+activity#kangwon.JK.Lee.cafe.Main.MainAct
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:38:9-69
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:38:19-66
+activity#kangwon.JK.Lee.cafe.condition.Condition_Search
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:39:9-41:79
+	android:theme
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:41:13-67
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:40:13-74
+activity#kangwon.JK.Lee.cafe.map.MapSearch_Activity
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:43:9-88
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:43:19-76
+activity#kangwon.JK.Lee.cafe.expain.Explain_Activity
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:45:9-89
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:45:19-77
+service#kangwon.JK.Lee.cafe.map.Background_LocationSV
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:47:9-81
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:47:18-78
+activity#kangwon.JK.Lee.cafe.condition.result.Result_Search
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:49:9-96
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:49:19-84
+activity#kangwon.JK.Lee.cafe.bookmark.Bookmark
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:50:9-52:70
+	android:theme
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:52:13-67
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:51:13-65
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:54:10-56:72
+	android:value
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:56:14-69
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:55:14-59
+activity#kangwon.JK.Lee.cafe.expain.View_Map
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:58:10-60:80
+	android:theme
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:60:14-68
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:59:14-64
+activity#kangwon.JK.Lee.cafe.Main.QnA
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:61:10-66
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:61:20-63
+activity#kangwon.JK.Lee.cafe.expain.Room.Click_Room_Activity
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:62:9-64:80
+	android:theme
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:64:14-68
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:63:14-80
+activity#kangwon.JK.Lee.cafe.expain.Menu.Click_Menu_Activity
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:65:10-67:80
+	android:theme
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:67:14-68
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:66:14-80
+activity#kangwon.JK.Lee.cafe.expain.Reply.Update_Reply
+ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:68:10-69:81
+	android:theme
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:69:14-68
+	android:name
+		ADDED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml:68:20-80
+uses-sdk
+INJECTED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ksdy2\.android\build-cache\2284f725b710f6fe4bbfbdfbe884a285c87bcc37\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ksdy2\.android\build-cache\aaa825a53dd3e941e7b73c8503bd9be08c2f8064\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ksdy2\.android\build-cache\a89f678584921f239d19ecf196f60242b1ae5076\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ksdy2\.android\build-cache\35951937ba13f1fbf641d82f3e9b010316b6371c\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\ksdy2\.android\build-cache\b82965837d988559af0f5f713914f15e30a5d1cd\output\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-location:10.0.1] C:\Users\ksdy2\.android\build-cache\8ec53e0191e236d6a9483b45514c0e00862c3506\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\ksdy2\.android\build-cache\f18784dce9885f92f1d020504357dc917b9686ba\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\ksdy2\.android\build-cache\797ecfc6ac6681a92690fa11dad2ab3b42f3c511\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\ksdy2\.android\build-cache\0af888c8be32f4d47d71c59c61be0c564ad291b9\output\AndroidManifest.xml:17:5-42
+MERGED from [com.tsengvn:Typekit:1.0.0] C:\Users\ksdy2\.android\build-cache\3611cb77e9baf421ebae8264c6161dcfe70cb301\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.chrisbanes:PhotoView:1.3.0] C:\Users\ksdy2\.android\build-cache\8af76991ad400e7947a44da0a3b36aeec683aa0a\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ksdy2\.android\build-cache\571d73f01cac928399f1ef3e62cde41794086d56\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ksdy2\.android\build-cache\361438d7f89565649caa49a5d04a6f5ea0f11f1a\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ksdy2\.android\build-cache\8e477d7ef9e6899d2b20f18aa8419727db49d82b\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ksdy2\.android\build-cache\16c625b5b766ba2d21f45da38d410f6bcd1d154b\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ksdy2\.android\build-cache\374bb4ef6d0d8e694908f1356fd56ce17b3cee48\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ksdy2\.android\build-cache\10a6ed369361bff4cc9b7d24999c3946ed05a2a1\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ksdy2\.android\build-cache\2284f725b710f6fe4bbfbdfbe884a285c87bcc37\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml
+		INJECTED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml
+		INJECTED from D:\201113435\MyProject\kangca\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ksdy2\.android\build-cache\2284f725b710f6fe4bbfbdfbe884a285c87bcc37\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ksdy2\.android\build-cache\aaa825a53dd3e941e7b73c8503bd9be08c2f8064\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ksdy2\.android\build-cache\a89f678584921f239d19ecf196f60242b1ae5076\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ksdy2\.android\build-cache\571d73f01cac928399f1ef3e62cde41794086d56\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ksdy2\.android\build-cache\361438d7f89565649caa49a5d04a6f5ea0f11f1a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ksdy2\.android\build-cache\8e477d7ef9e6899d2b20f18aa8419727db49d82b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ksdy2\.android\build-cache\16c625b5b766ba2d21f45da38d410f6bcd1d154b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ksdy2\.android\build-cache\374bb4ef6d0d8e694908f1356fd56ce17b3cee48\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ksdy2\.android\build-cache\10a6ed369361bff4cc9b7d24999c3946ed05a2a1\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ksdy2\.android\build-cache\2284f725b710f6fe4bbfbdfbe884a285c87bcc37\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ksdy2\.android\build-cache\2284f725b710f6fe4bbfbdfbe884a285c87bcc37\output\AndroidManifest.xml:26:9-47
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\ksdy2\.android\build-cache\b82965837d988559af0f5f713914f15e30a5d1cd\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\ksdy2\.android\build-cache\b82965837d988559af0f5f713914f15e30a5d1cd\output\AndroidManifest.xml:19:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\ksdy2\.android\build-cache\b82965837d988559af0f5f713914f15e30a5d1cd\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\ksdy2\.android\build-cache\b82965837d988559af0f5f713914f15e30a5d1cd\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\ksdy2\.android\build-cache\b82965837d988559af0f5f713914f15e30a5d1cd\output\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\ksdy2\.android\build-cache\f18784dce9885f92f1d020504357dc917b9686ba\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\ksdy2\.android\build-cache\f18784dce9885f92f1d020504357dc917b9686ba\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\ksdy2\.android\build-cache\f18784dce9885f92f1d020504357dc917b9686ba\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\ksdy2\.android\build-cache\f18784dce9885f92f1d020504357dc917b9686ba\output\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\ksdy2\.android\build-cache\0af888c8be32f4d47d71c59c61be0c564ad291b9\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\ksdy2\.android\build-cache\0af888c8be32f4d47d71c59c61be0c564ad291b9\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\ksdy2\.android\build-cache\0af888c8be32f4d47d71c59c61be0c564ad291b9\output\AndroidManifest.xml:20:20-65

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">강카</string>
+    <string name="title_activity_map_list_">Map</string>
+    <string name="spinner_title">지역을 선택하세요.</string>
+</resources>

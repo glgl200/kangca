@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"><![CDATA[
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        ]]>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:gravity="center"
+        android:text="사용자 의견란"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:keepScreenOn="true"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:elevation="0dp"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="이름"
+                android:inputType="textPersonName"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/pw"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="비밀번호를 입력하세요."
+                android:inputType="textPassword" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="Comment를 입력하세요."
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/regit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/common_google_signin_btn_text_dark_focused"
+                android:gravity="center"
+                android:text="등록"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

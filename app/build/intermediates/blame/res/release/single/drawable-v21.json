@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\201113435\\MyProject\\kangca\\app\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\ksdy2\\.android\\build-cache\\2284f725b710f6fe4bbfbdfbe884a285c87bcc37\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "D:\\201113435\\MyProject\\kangca\\app\\build\\intermediates\\res\\merged\\release\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\ksdy2\\.android\\build-cache\\2284f725b710f6fe4bbfbdfbe884a285c87bcc37\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "D:\\201113435\\MyProject\\kangca\\app\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\ksdy2\\.android\\build-cache\\2284f725b710f6fe4bbfbdfbe884a285c87bcc37\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\201113435\\MyProject\\kangca\\app\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\ksdy2\\.android\\build-cache\\2284f725b710f6fe4bbfbdfbe884a285c87bcc37\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    }
+]

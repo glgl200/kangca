@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/common_google_signin_btn_text_dark_focused"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="로   고"
+                android:textAllCaps="true"
+                android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+            <TextView
+                android:id="@+id/result_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="카페 이름"
+
+                android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+            <TextView
+                android:id="@+id/result_loc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:text="위   치"
+                android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+            <TextView
+                android:id="@+id/result_state"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="상   태"
+
+                android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:gravity="center"
+            android:text="각 항목별(클릭) 정렬"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+        <ListView
+            android:id="@+id/listView_main_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
+            android:textFilterEnabled="false" />
+    </LinearLayout>
+
+</LinearLayout>
